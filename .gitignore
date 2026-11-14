@@ -1,0 +1,6 @@
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+# Data files (simulated or real) are never committed
+*.csv
