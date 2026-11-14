@@ -1,0 +1,98 @@
+[
+ {
+  "scenario": "baseline (round-by-round code, no dynamics)",
+  "reps": 500,
+  "power_H1": 0.91,
+  "power_H1_and_H2": 0.868,
+  "completer_diff_mean": 0.7877782742003452,
+  "all_assigned_diff_mean": 0.7822683290850861,
+  "bias": 0.005509945115259094,
+  "dropout_A": 0.09963529411764706,
+  "dropout_B": 0.09944705882352942,
+  "dropout_C": 0.1017764705882353
+ },
+ {
+  "scenario": "learning over rounds (L = 0.4)",
+  "reps": 500,
+  "power_H1": 0.948,
+  "power_H1_and_H2": 0.912,
+  "completer_diff_mean": 0.6103277793148789,
+  "all_assigned_diff_mean": 0.6067736288973811,
+  "bias": 0.003554150417497903,
+  "dropout_A": 0.09997647058823529,
+  "dropout_B": 0.09987058823529413,
+  "dropout_C": 0.09929411764705884
+ },
+ {
+  "scenario": "fatigue (noise doubles by the end, F = 1)",
+  "reps": 500,
+  "power_H1": 0.968,
+  "power_H1_and_H2": 0.914,
+  "completer_diff_mean": 1.125806455243266,
+  "all_assigned_diff_mean": 1.1233003412153402,
+  "bias": 0.0025061140279259513,
+  "dropout_A": 0.10074117647058824,
+  "dropout_B": 0.09887058823529413,
+  "dropout_C": 0.09994117647058823
+ },
+ {
+  "scenario": "reliance falls after own bad outcome (S = 0.2)",
+  "reps": 500,
+  "power_H1": 0.848,
+  "power_H1_and_H2": 0.78,
+  "completer_diff_mean": 0.7439686277287731,
+  "all_assigned_diff_mean": 0.7358113747283596,
+  "bias": 0.008157253000413665,
+  "dropout_A": 0.09882352941176471,
+  "dropout_B": 0.09952941176470588,
+  "dropout_C": 0.09864705882352942
+ },
+ {
+  "scenario": "learning + fatigue + reliance shock",
+  "reps": 500,
+  "power_H1": 0.922,
+  "power_H1_and_H2": 0.876,
+  "completer_diff_mean": 0.8380421475889448,
+  "all_assigned_diff_mean": 0.8447324604602019,
+  "bias": -0.006690312871257136,
+  "dropout_A": 0.09809411764705882,
+  "dropout_B": 0.09897647058823529,
+  "dropout_C": 0.10004705882352942
+ },
+ {
+  "scenario": "drop-out depends on performance (G = 1), equal across groups",
+  "reps": 500,
+  "power_H1": 0.904,
+  "power_H1_and_H2": 0.85,
+  "completer_diff_mean": 0.608566160494339,
+  "all_assigned_diff_mean": 0.7908152219728805,
+  "bias": -0.1822490614785414,
+  "dropout_A": 0.11911764705882354,
+  "dropout_B": 0.11945882352941177,
+  "dropout_C": 0.0827764705882353
+ },
+ {
+  "scenario": "drop-out depends on performance, half as frequent in C",
+  "reps": 500,
+  "power_H1": 0.838,
+  "power_H1_and_H2": 0.716,
+  "completer_diff_mean": 0.5389593430281973,
+  "all_assigned_diff_mean": 0.794743674389805,
+  "bias": -0.2557843313616076,
+  "dropout_A": 0.12056470588235293,
+  "dropout_B": 0.12069411764705881,
+  "dropout_C": 0.04844705882352942
+ },
+ {
+  "scenario": "drop-out depends on performance, twice as frequent in C",
+  "reps": 500,
+  "power_H1": 0.97,
+  "power_H1_and_H2": 0.944,
+  "completer_diff_mean": 0.7176837771460868,
+  "all_assigned_diff_mean": 0.7963519870559785,
+  "bias": -0.07866820990989169,
+  "dropout_A": 0.11710588235294118,
+  "dropout_B": 0.11891764705882352,
+  "dropout_C": 0.1435647058823529
+ }
+]

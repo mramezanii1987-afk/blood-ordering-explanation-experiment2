@@ -1,0 +1,74 @@
+{
+ "S": 5.82,
+ "rate_per_point": 0.0022549468460171186,
+ "T_beh_mean": 1470.199775,
+ "T_beh_999": 2468.006000000001,
+ "sequence_best_totals": [
+  1308.0,
+  1337.0
+ ],
+ "candidate_median_best_total": 1319.0,
+ "strategies": {
+  "best": {
+   "expected_total_cost": 1328.4,
+   "bonus_seq1_mean": 2.87,
+   "bonus_seq2_mean": 2.8,
+   "bonus_alt_mean": 2.83,
+   "bonus_alt_p05": 2.07,
+   "bonus_alt_p95": 3.48,
+   "share_at_zero_alt": 0.0,
+   "share_at_zero_fixed": 0.0
+  },
+  "follow": {
+   "expected_total_cost": 1466.5,
+   "bonus_seq1_mean": 2.57,
+   "bonus_seq2_mean": 2.59,
+   "bonus_alt_mean": 2.52,
+   "bonus_alt_p05": 1.62,
+   "bonus_alt_p95": 3.3,
+   "share_at_zero_alt": 0.0,
+   "share_at_zero_fixed": 0.0
+  },
+  "average": {
+   "expected_total_cost": 1806.4,
+   "bonus_seq1_mean": 1.85,
+   "bonus_seq2_mean": 1.79,
+   "bonus_alt_mean": 1.76,
+   "bonus_alt_p05": 0.43,
+   "bonus_alt_p95": 2.91,
+   "share_at_zero_alt": 0.0184,
+   "share_at_zero_fixed": 0.0
+  },
+  "constant100": {
+   "expected_total_cost": 2636.0,
+   "bonus_seq1_mean": 0.03,
+   "bonus_seq2_mean": 0.0,
+   "bonus_alt_mean": 0.31,
+   "bonus_alt_p05": 0.0,
+   "bonus_alt_p95": 1.37,
+   "share_at_zero_alt": 0.5396,
+   "share_at_zero_fixed": 0.5
+  },
+  "random": {
+   "expected_total_cost": 4488.6,
+   "bonus_seq1_mean": 0.0,
+   "bonus_seq2_mean": 0.0,
+   "bonus_alt_mean": 0.0,
+   "bonus_alt_p05": 0.0,
+   "bonus_alt_p95": 0.0,
+   "share_at_zero_alt": 0.999,
+   "share_at_zero_fixed": 0.9988
+  },
+  "behavioural": {
+   "expected_total_cost": 1481.4,
+   "bonus_seq1_mean": 2.5,
+   "bonus_seq2_mean": 2.5,
+   "bonus_alt_mean": 2.5,
+   "bonus_alt_p05": 1.43,
+   "bonus_alt_p95": 3.35,
+   "share_at_zero_alt": 0.0,
+   "share_at_zero_fixed": 0.0
+  }
+ },
+ "expected_gap_best_vs_average_GBP": 1.08
+}
