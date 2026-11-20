@@ -62,6 +62,26 @@ Environment used: Python 3.13.18, NumPy 2.5.3, SciPy 1.18.1, pandas 3.0.5, pytes
     d2d049c3ad271cc558b6ad5f7c026930bd3d4d6955d1a6d5e100959a0844c585  power3.json
     908a4161861adbe371416751fd78ca59bff4930f4b726af93a463553c50232f1  power_sensitivity.json
 
+## Added 20 November 2026: power for smaller effects
+
+After reading Joslyn & LeClerc (2012), whose explanations reduced expected loss by only about 5 per cent compared with advice alone, H1 power was simulated for smaller effects with the same model, test and drop-out (group B like A, 500 studies per row).
+
+| Command | Output | Time |
+|---|---|---|
+| `python power_small.py power_small.json 7 500` | power_small.json | about 2 min |
+| `python power_small2.py power_small2.json 11 500` | power_small2.json | about 2 min |
+
+| Reduction in regret | Per group | Power H1 |
+|---|---|---|
+| about 13% | 170 | 37% |
+| about 13% | 560 | 78% |
+| about 13% | 680 | 84% |
+| about 15% | 170 | 47% |
+| about 15% | 380 | 76% |
+| about 15% | 440 | 81% |
+
+The reductions (12.8% and 14.7%) were estimated separately with 3 × 100,000 simulated participants per setting; the `reduction` values stored in power_small.json come from a single smaller run and are noisier.
+
 ## Licence
 
 MIT; see `LICENSE`.

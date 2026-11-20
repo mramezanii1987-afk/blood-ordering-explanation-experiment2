@@ -1,0 +1,26 @@
+[
+ {
+  "delta": 0.056,
+  "blocks": 280,
+  "assigned_per_group": 560,
+  "reps": 500,
+  "power_H1": 0.776,
+  "power_H1_and_H2": 0.668
+ },
+ {
+  "delta": 0.056,
+  "blocks": 340,
+  "assigned_per_group": 680,
+  "reps": 500,
+  "power_H1": 0.842,
+  "power_H1_and_H2": 0.778
+ },
+ {
+  "delta": 0.065,
+  "blocks": 190,
+  "assigned_per_group": 380,
+  "reps": 500,
+  "power_H1": 0.756,
+  "power_H1_and_H2": 0.636
+ }
+]
